@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
     @GetMapping("/hello/")
     public String sayHello() {
-        return "";
+        return "Hello world, welcome to no docker demo";
     }
 }
