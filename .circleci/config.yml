@@ -17,7 +17,6 @@ workflows:
           filters:
             branches:
               only: master
-
 jobs:
   build:
     docker:
@@ -30,7 +29,6 @@ jobs:
           paths:
             - build/
             - .gradle/
-
   test:
     docker:
       - image: gradle:alpine
