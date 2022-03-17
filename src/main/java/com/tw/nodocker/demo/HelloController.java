@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
     @GetMapping("/hello/")
     public String sayHelloTwaran() {
-
-
         return "Hello Twaran, welcome to CICD Spring Boot demo";
     }
     @GetMapping("/")
